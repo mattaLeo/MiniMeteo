@@ -1,0 +1,136 @@
+#fbContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#cityName{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#selectedCity{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 25px;
+    text-align: center;
+}
+
+button{
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgb(73, 130, 236);
+    color: white;
+    transition-duration: 0.2s;
+}
+
+#main{
+    background: linear-gradient(rgb(128, 103, 250), rgb(91, 165, 190));
+    border-radius: 30px;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#formRicerca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+body{
+    background: linear-gradient(rgb(108, 159, 241), lightblue);
+}
+
+#details{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+#divTemperature{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#divWindSpeed{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#temperature{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#windSpeed{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#windSpeedh3{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#maxMin{
+    margin: 0px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#windSpeedText{
+    margin: 0px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imgMeteo{
+    margin: 0px;
+}
+
+#weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#weatherText{
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
