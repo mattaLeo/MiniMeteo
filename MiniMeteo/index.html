@@ -10,17 +10,20 @@
             <div id="main">
                 <h2 id="cityName">No city selected</h2>
                 <div id="formRicerca">
-                    <input type="text" placeholder="Milan" id="selectedCity">
+                    <input type="text"  id="selectedCity">
                     <button id="cerca">Cerca</button>
                 </div>
-                <img id="imgMeteo">
+                <div id="weather">
+                    <img id="imgMeteo" width="200px">
+                    <h3 id="weatherText"></h3>
+                </div>
                 <div id="details">
                     <div id="divTemperature">
                         <h3 id="temperature">0°</h3>
                         <h4 id="maxMin">Max: 0°  Min: 0°</h4>
                     </div>
                     <div id="divWindSpeed">
-                        <h3 id="windSpeedh3"><span id="windSpeed">0</span><span>K/h</span></h3>
+                        <h3 id="windSpeedh3"><span id="windSpeed">0</span><span>m/s</span></h3>
                         <h4 id="windSpeedText">Wind speed</h4>
                     </div>
                 </div>
